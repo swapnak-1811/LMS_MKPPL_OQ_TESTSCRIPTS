@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-20T10:31:16 IST" name="Default suite" finished-at="2024-12-20T10:31:33 IST" duration-ms="16163">
+    <groups>
+    </groups>
+    <test started-at="2024-12-20T10:31:16 IST" name="Default test" finished-at="2024-12-20T10:31:33 IST" duration-ms="16163">
+      <class name="mkppl_Deptoqtestcases.TestCase_4_2_11">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mkppl_Deptoqtestcases.TestCase_4_2_11@7bab3f1a]" started-at="2024-12-20T10:31:17 IST" name="setup" finished-at="2024-12-20T10:31:20 IST" duration-ms="3456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Clicklogoutbutton()[pri:0, instance:mkppl_Deptoqtestcases.TestCase_4_2_11@7bab3f1a]" started-at="2024-12-20T10:31:20 IST" name="Clicklogoutbutton" finished-at="2024-12-20T10:31:32 IST" duration-ms="12221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Clicklogoutbutton -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:mkppl_Deptoqtestcases.TestCase_4_2_11@7bab3f1a]" started-at="2024-12-20T10:31:32 IST" name="Close" finished-at="2024-12-20T10:31:33 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- mkppl_Deptoqtestcases.TestCase_4_2_11 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
