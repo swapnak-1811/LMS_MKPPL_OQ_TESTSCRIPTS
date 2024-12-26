@@ -12,10 +12,14 @@ public class Admin_Login_Logout_AL {
 	WebDriver driver;
 	WebDriverWait wait;
 
+	// Constructor to initialize WebDriver and WebDriverWait
+
 	Admin_Login_Logout_AL(WebDriver driver) {
 		this.driver = driver;
 		this.wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 	}
+	
+	//Locators
 
 	By txt_username = By.xpath("//input[@id='username']");
 	By txt_password = By.xpath("//input[@id='password']");
@@ -24,6 +28,9 @@ public class Admin_Login_Logout_AL {
 	By clk_profile  = By.xpath("//a[normalize-space()='Profile']");
 	By clk_Logout   = By.xpath("//a[normalize-space()='Logout']");
 	
+	
+	// Methods to interact with elements
+
 	 public void setusername(String username) {
 		WebElement usernameField = driver.findElement(txt_username);
 		usernameField.sendKeys(username);

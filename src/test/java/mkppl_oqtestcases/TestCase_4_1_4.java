@@ -25,7 +25,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestCase_4_1_4{
 	WebDriver driver;
 	
-	@Test(priority=3)
+	@Test(priority=4)
 
 	public void ClickSigninButton() throws Exception {
 		
@@ -38,11 +38,11 @@ public class TestCase_4_1_4{
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 		WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
-		all.setusername("admin"); // replace with actual username
+		all.setusername("admin");
 
 		WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
 		all.setpassword("admin");
-		//WebElement loginButton = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("submit")));
+		
 		all.clicksignin();
 		Thread.sleep(2000);
 		JavascriptExecutor jse = (JavascriptExecutor)driver;

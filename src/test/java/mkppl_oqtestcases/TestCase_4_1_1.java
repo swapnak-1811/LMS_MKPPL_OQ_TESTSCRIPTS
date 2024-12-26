@@ -7,30 +7,24 @@ import java.awt.Toolkit;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.time.Duration;
 
 import javax.imageio.ImageIO;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
-import com.google.common.io.Files;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TestCase_4_1_1 {
 	WebDriver driver;
 
-	@BeforeClass
-	public void LaunchGoogleWindow() {
+	@BeforeMethod
+	public void launchGoogleWindow() {
 
 		driver = new ChromeDriver();
 
@@ -57,7 +51,7 @@ public class TestCase_4_1_1 {
 
 	}
 
-	@AfterClass
+	@AfterMethod
 	public void Close() {
 		driver.quit();
 	}

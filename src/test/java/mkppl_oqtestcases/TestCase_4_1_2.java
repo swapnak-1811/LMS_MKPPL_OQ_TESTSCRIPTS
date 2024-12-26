@@ -47,7 +47,7 @@ public class TestCase_4_1_2 {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 		WebElement usernameField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("username")));
-		all.setusername(""); // replace with actual username
+		all.setusername(""); 
 
 		WebElement passwordField = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("password")));
 		all.setpassword(""); 

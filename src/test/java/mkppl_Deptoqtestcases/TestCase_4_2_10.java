@@ -33,6 +33,10 @@ WebDriver driver;
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 	}
+	
+	
+	
+	
 	@Test
 	public void Clickusernamebutton() throws Exception {
 		
@@ -51,7 +55,7 @@ WebDriver driver;
 		dc.Clickusername();
 		Thread.sleep(3000);
 		
-		JavascriptExecutor jse = (JavascriptExecutor) driver;
+		JavascriptExecutor jse = (JavascriptExecutor) driver; 
 		jse.executeScript("document.body.style.zoom = '70%' ");
 
 		Robot robot = new Robot();

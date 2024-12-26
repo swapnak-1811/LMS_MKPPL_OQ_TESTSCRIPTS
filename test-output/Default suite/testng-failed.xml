@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mkppl_Deptoqtestcases.TestCase_4_2_11">
+      <class name="jobcode_creation.TestCase_4_3_24">
         <methods>
+          <include name="verifyTheUsernamebutton"/>
           <include name="setup"/>
-          <include name="Clicklogoutbutton"/>
           <include name="Close"/>
         </methods>
-      </class> <!-- mkppl_Deptoqtestcases.TestCase_4_2_11 -->
+      </class> <!-- jobcode_creation.TestCase_4_3_24 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
